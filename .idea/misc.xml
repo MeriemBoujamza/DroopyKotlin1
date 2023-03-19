@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_action_check.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_filter_list.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_filter_list_dark.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_hamburger_menu.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_location_on.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_search.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_star_white.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-anydpi/ic_time.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/background_splash.xml" value="0.2358974358974359" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/bg_circle.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/blue_gradient.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/blue_round_button.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/checkbox_custom.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/checkbox_custom_check_background.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/checkbox_custom_uncheck_background.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/circle_blue.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/circle_orange.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/circle_silver_no_stroke.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/circle_silver_stroke.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/circle_white.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/circular_progress_bar.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/curve_rect.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/curved_path_2.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/curved_semi_circle_bg.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/gradient_primary_bg.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/grey_stroke_round_button.xml" value="0.2358974358974359" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/ic_female_avatar.xml" value="0.2358974358974359" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/ic_life_documents.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/ic_lock_black_24dp.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/ic_lock_translucent_24dp.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/ic_male_avatar.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/ic_reg_message.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/layer_card_background.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/layer_card_background_gradient.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/no_curve_rect.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/notifications_round_shape.xml" value="0.2358974358974359" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/radio_button_selector.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/round_rect_dark.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/round_rect_lightgray.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/round_shape.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/round_white_button_bg.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/slider_tab_indicator_default.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/slider_tab_indicator_selected.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/sliders_tab_selector.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/spinner_anim.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/spinner_round_bg.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/drawable/unknown_avatar.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_donors.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_home.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_main.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_phone_registration.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_register.xml" value="0.19" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_register_donor.xml" value="0.2234375" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_requests.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_splash.xml" value="0.19" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_user_profile.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/activity_welcome_screen.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/fragment_welcome_slide1.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/fragment_welcome_slide2.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/fragment_welcome_slide3.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/home_content_title.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/home_content_top.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/item_donors_header.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/item_donors_row.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/item_post.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/item_requests.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/menu_counter.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/popup_verify_code.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/register_other_details.xml" value="0.22" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/register_verify_phone_number.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/requests_tops_layout.xml" value="0.16111111111111112" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/toolbar.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/layout/user_profile_content_layout.xml" value="0.16111111111111112" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/menu/menu_activity_donors.xml" value="0.16111111111111112" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/menu/menu_activity_requests.xml" value="0.16111111111111112" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/veryempty/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable-hdpi/background_image.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable-hdpi/ic_logo_color.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/background_splash.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/bg_circle.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/blue_gradient.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/checkbox_custom.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/cursor_color.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/gradient_primary_bg.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/ic_ri_lock_password_line.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/layer_card_background.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/rect_button_red_background.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/rect_silver_background.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/red_rect_button_white_border.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/round_rect_button_silver_border.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/round_rect_dark.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/round_shape.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/round_white_button_bg.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/spinner_round_bg.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/drawable/spinner_round_bg_white.xml" value="0.1125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_donors.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_edit_pers_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_facebook_auth.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_google_auth.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_new_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_pers_profile.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_phone_registration.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_register_donor.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_request_blood.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_requests.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_sign_up.xml" value="0.292259083728278" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/activity_user_profile.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/fragment_welcome_slide1.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/home_content_title.xml" value="0.1359375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/home_content_top.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/item_donors_header.xml" value="0.1359375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/item_donors_row.xml" value="0.5" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/item_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/pers_profile_content_layout.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/merksterz/app/src/main/res/layout/user_profile_content_layout.xml" value="0.18177083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

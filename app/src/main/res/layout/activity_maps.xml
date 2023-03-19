@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/DarkArrowToolbarStyle"
+        app:titleTextColor="@color/be_hero_dark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Find Nearby Hospitals"
+            android:textColor="@color/be_hero_light_grey"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="@fonts/montserrat_bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+    <!--fragment to display our map-->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="0dp"
+        tools:context=".activities.MapsActivity" />
+
+    <Button
+        android:id="@+id/currentLoc"
+        android:visibility="gone"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_alignEnd="@id/map"
+        android:layout_alignRight="@id/map"
+        android:layout_alignBottom="@id/map"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="107dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="3">
+
+        <!--button for displaying hybrid map-->
+        <Button
+            android:id="@+id/idBtnHybridMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_button_red_background"
+            android:singleLine="false"
+            android:text="Hybrid \n Map"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@fonts/montserrat_medium" />
+
+        <!--button for displaying satellite map-->
+        <Button
+            android:id="@+id/idBtnSatelliteMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_button_red_background"
+            android:singleLine="false"
+            android:text="Satellite \n Map"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            app:fontFamily="@fonts/montserrat_medium" />
+
+        <!--button for displaying terrain map-->
+        <Button
+            android:id="@+id/idBtnTerrainMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rect_button_red_background"
+            android:singleLine="false"
+            android:text="Terrain \n Map"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:fontFamily="@fonts/montserrat_medium" />
+
+    </LinearLayout>
+
+</RelativeLayout>

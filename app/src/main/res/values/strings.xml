@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droppy Bank</string>
+    <string name="slogan">Smth smth</string>
+
+    <!--string drawer menu-->
+
+    <!--exit notification-->
+    <string name="press_again_exit_app">Press again to exit</string>
+
+    <!--Activities-->
+    <string name="activity_welcome_screen">Welcome Screen</string>
+    <string name="activity_login_register">Login/Register</string>
+    <string name="activity_login">Sign In</string>
+    <string name="activity_register">Sign Up</string>
+    <string name="activity_dashboard">Dashboard</string>
+    <string name="activity_case_list">Case List</string>
+    <string name="activity_profile">Profile</string>
+    <string name="activity_case_detail">Case Detail</string>
+    <string name="activity_business_line_detail">Business Detail</string>
+    <string name="activity_register_donor">Become Donor</string>
+    <string name="activity_request_blood">Request for Blood</string>
+    <string name="activity_all_donors">Explore all donors</string>
+    <string name="activity_user_profile">User Profile</string>
+    <string name="last_donation_date">Last date of donation %1$s</string>
+    <string name="ask_for_help">Ask For Help</string>
+
+    <string name="activity_verification">Verification</string>
+
+    <!--    Facebook Strings -->
+    <string name="facebook_app_id">249969753904948</string>
+    <string name="fb_login_protocol_scheme">fb249969753904948</string>
+    <string name="activity_all_requests">Explore all requests</string>
+    <string name="title_activity_maps">ActivityMaps</string>
+
+</resources>

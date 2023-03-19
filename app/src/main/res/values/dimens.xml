@@ -1,0 +1,151 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">3dp</dimen>
+    <dimen name="spacing_medium">4dp</dimen>
+    <dimen name="spacing_mmiddle">8dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_xmlarge">12dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_mxlarge">25dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+    <dimen name="spacing_xxxlarge">60dp</dimen>
+    <dimen name="spacing_actionbar">48dp</dimen>
+    <dimen name="spacing_xmactionbar">56dp</dimen>
+    <dimen name="spacing_xactionbar">60dp</dimen>
+    <dimen name="spacing_xxactionbar">72dp</dimen>
+
+    <dimen name="elevation_low">9dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="recycler_item_size">192dp</dimen>
+
+    <!-- MORE DIMES-->
+
+    <dimen name="customTitle">14sp</dimen>
+    <dimen name="customEntry">18sp</dimen>
+    <dimen name="sample_button_spacing">2dp</dimen>
+    <dimen name="headerTitle">20sp</dimen>
+    <dimen name="headerMarginVertical">16dp</dimen>
+    <dimen name="headerMarginStart">12dp</dimen>
+
+    <dimen name="icon_top_margin">18dp</dimen>
+    <dimen name="icon_bottom_margin">24dp</dimen>
+    <dimen name="title_bottom_margin">16dp</dimen>
+    <dimen name="field_width_standard">160dp</dimen>
+    <dimen name="notification_image_item_size">220dp</dimen>
+
+
+    <dimen name="five">5dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="labels_text_size">14sp</dimen>
+    <dimen name="iconsMini">22sp</dimen>
+    <dimen name="iconsLarge">32sp</dimen>
+    <dimen name="title">23sp</dimen>
+    <dimen name="title2">16sp</dimen>
+    <dimen name="pText">15sp</dimen>
+    <dimen name="pTextBig">18sp</dimen>
+
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_6">6dp</dimen>
+    <dimen name="add_button_width">48dp</dimen>
+    <dimen name="add_item_text_size">16sp</dimen>
+
+    <dimen name="feed_item_margin">10dp</dimen>
+    <dimen name="feed_item_padding_top_bottom">20dp</dimen>
+    <dimen name="feed_item_padding_left_right">15dp</dimen>
+    <dimen name="feed_item_profile_pic">50dp</dimen>
+    <dimen name="feed_item_profile_info_padd">10dp</dimen>
+    <dimen name="feed_item_profile_name">15dp</dimen>
+    <dimen name="feed_item_timestamp">13dp</dimen>
+    <dimen name="feed_item_status_pad_left_right">15dp</dimen>
+    <dimen name="feed_item_status_pad_top">13dp</dimen>
+    <dimen name="feed_item_corner_radius">3dp</dimen>
+    <dimen name="feed_item_border_width">1dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="lvPrimaryTextSize">18sp</dimen>
+    <dimen name="lvSecondaryTextSize">14sp</dimen>
+
+    <dimen name="lvHdrItemHeight">45dp</dimen>
+    <dimen name="lvItemHeight">65dp</dimen>
+
+    <dimen name="lvHeadingPaddingLeft">8dp</dimen>
+    <dimen name="lvHeadingTextSize">14sp</dimen>
+
+    <dimen name="lvPrimaryPaddingTop">6dp</dimen>
+    <dimen name="lvPrimaryPaddingBottom">1dp</dimen>
+    <dimen name="lvPrimaryPaddingLeft">8dp</dimen>
+
+    <dimen name="lvSecondaryPaddingTop">2dp</dimen>
+    <dimen name="lvSecondaryPaddingBottom">6dp</dimen>
+    <dimen name="lvSecondaryPaddingLeft">8dp</dimen>
+
+    <dimen name="lvDividerHeight">1dp</dimen>
+    <dimen name="lvDividerMargin">15dp</dimen>
+    <dimen name="lvSectionDividerMargin">5dp</dimen>
+    <dimen name="lvDividerWidth">1dp</dimen>
+
+    <dimen name="lvSectionDividerMarginTop">5dp</dimen>
+    <dimen name="lvRespodentsNames">15dp</dimen>
+    <dimen name="grid_column_width">96dp</dimen>
+
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">20dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <dimen name="toolbarHeight">56dp</dimen>
+    <dimen name="menusWidth">168dp</dimen>
+
+    <dimen name="defaultDividerHeight">4dp</dimen>
+    <dimen name="defaultProgressBarHeight">1dp</dimen>
+    <dimen name="defaultTitleSize">14dp</dimen>
+    <dimen name="defaultUrlSize">10dp</dimen>
+    <dimen name="defaultMenuDropShadowCornerRadius">2dp</dimen>
+    <dimen name="defaultMenuDropShadowSize">4dp</dimen>
+    <dimen name="defaultMenuTextSize">16dp</dimen>
+    <dimen name="defaultMenuTextPaddingLeft">16dp</dimen>
+    <dimen name="defaultMenuTextPaddingRight">32dp</dimen>
+    <dimen name="defaultMenuLayoutMargin">4dp</dimen>
+    <dimen name="defaultMenuCornerRadius">2dp</dimen>
+
+    <dimen name="theme_corner_radius">50dp</dimen>
+    <dimen name="divider_height">5dp</dimen>
+    <dimen name="notification_size">20dp</dimen>
+
+    <!-- Custom spinner-->
+    <dimen name="underline_top_spacing">8dp</dimen>
+    <dimen name="underline_bottom_spacing">4dp</dimen>
+    <dimen name="error_label_spacing">12dp</dimen>
+    <dimen name="floating_label_top_spacing">4dp</dimen>
+    <dimen name="floating_label_bottom_spacing">8dp</dimen>
+    <dimen name="floating_label_inside_spacing">12dp</dimen>
+    <dimen name="right_left_spinner_padding">8dp</dimen>
+    <dimen name="label_text_size">12sp</dimen>
+    <dimen name="min_content_height">20dp</dimen>
+
+</resources>

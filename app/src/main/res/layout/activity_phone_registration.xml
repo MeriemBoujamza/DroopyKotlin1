@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingPrefix,Autofill,LabelFor,InefficientWeight,RtlSymmetry,SmallSp,UseCompoundDrawables,HardcodedText,RtlHardcoded,ObsoleteLayoutParam,NestedWeights,ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:layout_alignParentTop="true"
+            android:theme="@style/ArrowToolbarStyle"
+            app:titleTextColor="@color/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:id="@+id/verify_phone_number_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Verify Number"
+            android:layout_below="@+id/toolbar"
+            app:fontFamily="@fonts/montserrat_regular"
+            android:textColor="@color/finestTextColor"
+            android:layout_margin="@dimen/spacing_mlarge"
+            />
+
+        <LinearLayout
+            android:id="@+id/input_phone_number_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/spacing_mlarge"
+            android:layout_below="@+id/verify_phone_number_textview">
+
+            <TextView
+                android:id="@+id/input_country_code"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:gravity="center"
+                android:text="+1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="@dimen/spacing_large"
+                app:fontFamily="@fonts/montserrat_medium"
+                android:textColor="@color/finestTextColor"
+                android:background="@drawable/circle_silver_no_stroke" />
+
+            <EditText
+                android:id="@+id/input_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:minHeight="?attr/actionBarSize"
+                android:hint="Enter your phone number"
+                android:inputType="phone|textPhonetic"
+                app:fontFamily="@fonts/montserrat_medium"
+                android:paddingTop="@dimen/spacing_large"
+                android:paddingBottom="@dimen/spacing_large"
+                android:paddingLeft="@dimen/spacing_mxlarge"
+                android:paddingRight="@dimen/spacing_mxlarge"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:background="@drawable/rect_silver_background" />
+
+        </LinearLayout>
+
+        <ma.ensaf.veryempty.widget.MaterialRippleLayout
+            style="@style/RippleStyleWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_mlarge"
+            android:layout_below="@+id/input_phone_number_layout">
+
+            <Button
+                android:id="@+id/button_phone_verify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Otp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:padding="@dimen/spacing_large"
+                app:fontFamily="@fonts/montserrat_medium"
+                android:background="@drawable/rect_button_red_background"/>
+
+        </ma.ensaf.veryempty.widget.MaterialRippleLayout>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Pressed and focused-->
+    <item android:state_pressed="true" android:state_focused="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/grey_soft" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+
+    <!--Pressed but not focused-->
+    <item android:state_pressed="true" android:state_focused="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/grey_soft" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+
+    <!--Focused but not pressed State-->
+    <item android:state_pressed="false" android:state_focused="true">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+
+    <!--Default State-->
+    <item android:state_pressed="false" android:state_focused="false">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/finestSilver" />
+        </shape>
+    </item>
+
+</selector>

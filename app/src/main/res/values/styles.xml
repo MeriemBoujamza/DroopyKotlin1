@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="BaseTheme"/>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccentLight</item>
+        <item name="android:textColorPrimary">@color/finestBlack</item>
+        <item name="android:textColorSecondary">@color/finestSilver</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="StyledEditText">
+        <item name="android:theme">@style/StyledEditTextTheme</item>
+    </style>
+
+
+    <style name="StyledEditTextTheme">
+        <!--<item name="android:imeOptions">actionNext</item>-->
+        <!--<item name="android:singleLine">true</item>-->
+        <item name="colorControlNormal">@color/finestSilver</item><!--#141a22-->
+        <item name="colorControlActivated">@color/finestSilver</item>
+        <item name="android:textColorHint">@color/finestSilver</item>
+        <item name="android:textColorPrimary">@color/finestTextColor</item>
+    </style>
+
+    <!-- The launcher theme. It sets the main window background to the launch_screen drawable -->
+    <style name="AppTheme_Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+        <item name="android:windowBackground">@drawable/background_splash</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>-->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="ArrowToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="DarkArrowToolbarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/be_hero_dark</item>
+        <item name="android:textColorSecondary">@color/be_hero_dark</item>
+        <item name="actionMenuTextColor">@color/be_hero_dark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    <style name="AppTheme.WhiteStatusBar" parent="AppTheme">
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <!-- Status bar stuff. -->
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/backgroundColorPress</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    tools:ignore="MissingPrefix,RtlSymmetry,SmallSp,RtlHardcoded,HardcodedText,ObsoleteLayoutParam,NestedWeights,ContentDescription">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/DarkArrowToolbarStyle"
+            app:titleTextColor="@color/be_hero_dark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Share a New Post"
+                android:textColor="@color/be_hero_dark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@fonts/montserrat_bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <Button
+            android:id="@+id/btn_post"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/white"
+            android:padding="@dimen/spacing_mmiddle"
+            android:text="POST"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:fontFamily="@fonts/montserrat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_image_view"
+                android:layout_width="@dimen/spacing_actionbar"
+                android:layout_height="@dimen/spacing_actionbar"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/spacing_mmiddle"
+                android:src="@drawable/photo_male_1"
+                app:civ_border_color="@color/transparent"
+                app:civ_border_width="0dp" />
+
+            <RelativeLayout
+                android:id="@+id/user_top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/user_image_view"
+                android:layout_toRightOf="@+id/user_image_view">
+
+                <TextView
+                    android:id="@+id/user_name_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/spacing_mmiddle"
+                    android:maxLines="1"
+                    android:text="User's Name"
+                    android:textColor="@color/be_hero_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@fonts/montserrat_light" />
+
+                <ImageView
+                    android:id="@+id/user_verified_image_view"
+                    android:layout_width="@dimen/spacing_large"
+                    android:layout_height="@dimen/spacing_large"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/user_name_text_view"
+                    android:layout_toRightOf="@+id/user_name_text_view"
+                    android:background="@drawable/circle_blue"
+                    android:padding="@dimen/spacing_medium"
+                    app:srcCompat="@drawable/ic_action_check" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_top_layout"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_toEndOf="@+id/user_image_view"
+                android:layout_toRightOf="@+id/user_image_view">
+
+                <ImageView
+                    android:id="@+id/post_time_image_view"
+                    android:layout_width="@dimen/spacing_mlarge"
+                    android:layout_height="@dimen/spacing_mlarge"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/ic_time"
+                    app:tint="@color/md_grey_400" />
+
+                <TextView
+                    android:id="@+id/post_time_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_medium"
+                    android:layout_marginRight="@dimen/spacing_medium"
+                    android:layout_toEndOf="@+id/post_time_image_view"
+                    android:layout_toRightOf="@+id/post_time_image_view"
+                    android:maxLines="1"
+                    android:text="X mins ago"
+                    android:textSize="14sp"
+                    app:fontFamily="@fonts/montserrat_light" />
+
+                <ImageView
+                    android:id="@+id/user_location_image_view"
+                    android:layout_width="@dimen/spacing_mlarge"
+                    android:layout_height="@dimen/spacing_mlarge"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_medium"
+                    android:layout_toEndOf="@+id/post_time_text_view"
+                    android:layout_toRightOf="@+id/post_time_text_view"
+                    app:srcCompat="@drawable/ic_location_on"
+                    app:tint="@color/md_grey_400" />
+
+                <TextView
+                    android:id="@+id/user_location_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/user_location_image_view"
+                    android:layout_toRightOf="@+id/user_location_image_view"
+                    android:maxLines="1"
+                    android:text="Location"
+                    android:textSize="14sp"
+                    app:fontFamily="@fonts/montserrat_light" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="3dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/etPostContent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/top_layout"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/etPostContent"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:ems="10"
+            android:hint="What's on your mind?"
+            android:paddingStart="5dp"
+            android:textAlignment="center"
+            app:fontFamily="@fonts/montserrat_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:foregroundGravity="left"
+            app:layout_constraintBottom_toBottomOf="@+id/etPostContent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_image"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_margin="16dp"
+                android:background="@color/finestWhite"
+                android:contentDescription="post image"
+                android:foreground="@drawable/ic_baseline_add_photo_alternate_24"
+                android:foregroundGravity="center"
+                app:layout_anchor="@+id/add_image"
+                app:layout_anchorGravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etPostContent"
+                app:rippleColor="#FFFFFF" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

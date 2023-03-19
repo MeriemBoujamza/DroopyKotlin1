@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingPrefix,RtlSymmetry,SmallSp,HardcodedText,ObsoleteLayoutParam,TextFields,ContentDescription,KeyboardInaccessibleWidget">
+
+    <RelativeLayout
+        android:id="@+id/layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/background_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <ma.ensaf.veryempty.widget.diagonallayout.DiagonalLayout
+                android:id="@+id/diagonalLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:diagonal_angle="10"
+                app:diagonal_position="bottom"
+                app:diagonal_direction="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/top_background"
+                    android:scaleType="centerCrop"
+                    app:tint="@color/transparent"
+                    android:contentDescription="top_background"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="?android:attr/actionBarSize"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image_view_back"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center_vertical"
+                            android:src="@drawable/ic_back_arrow"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true" />
+
+                        <TextView
+                            android:id="@+id/register_textview_caption"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sign Up"
+                            android:textSize="18sp"
+                            android:textColor="@color/white"
+                            app:fontFamily="fonts/futura_heavy.ttf"
+                            android:layout_centerInParent="true"
+                            android:layout_centerVertical="true"
+                            />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Complete Account"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        app:fontFamily="@fonts/montserrat_light"
+                        android:paddingLeft="@dimen/spacing_large"
+                        android:paddingRight="@dimen/spacing_large"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/spacing_large"
+                        android:paddingRight="@dimen/spacing_large">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Setup"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            app:fontFamily="@fonts/montserrat_bold"
+                            android:gravity="start|center_vertical"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:minWidth="32dp"
+                            android:minHeight="32dp"
+                            android:src="@drawable/ic_reg_step_two"
+                            android:scaleType="centerCrop"
+                            app:tint="@color/white"
+                            android:contentDescription="top_background" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ma.ensaf.veryempty.widget.diagonallayout.DiagonalLayout>
+
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="@dimen/spacing_xsmall"
+            app:cardCornerRadius="@dimen/spacing_medium"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="@dimen/spacing_large"
+            android:layout_marginRight="@dimen/spacing_large">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_large">
+
+                <!-- Enter Kra Pin Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_layout_kra_pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="45dp"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    style="@style/StyledEditText"
+                    android:textColor="@color/finestTextColor">
+
+                    <EditText
+                        android:id="@+id/input_kra_pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="KRA PIN"
+                        android:maxEms="10"
+                        android:inputType="text|textCapCharacters"
+                        android:maxLines="1"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:text="AOO67817T86W"
+                        app:fontFamily="@fonts/montserrat_medium"
+                        android:padding="@dimen/spacing_mmiddle"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Enter Email Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_layout_email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="45dp"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    style="@style/StyledEditText"
+                    android:textColor="@color/finestTextColor">
+
+                    <EditText
+                        android:id="@+id/input_email_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Email Address"
+                        android:inputType="text|textEmailAddress"
+                        android:maxLines="1"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@fonts/montserrat_medium"
+                        android:padding="@dimen/spacing_mmiddle"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Enter Password Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_layout_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="45dp"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    style="@style/StyledEditText"
+                    android:textColor="@color/finestTextColor">
+
+                    <EditText
+                        android:id="@+id/input_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Password"
+                        android:inputType="text|textPassword"
+                        android:maxLines="1"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@fonts/montserrat_medium"
+                        android:padding="@dimen/spacing_mmiddle"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Enter Password Label -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_layout_password_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="45dp"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    style="@style/StyledEditText"
+                    android:textColor="@color/finestTextColor">
+
+                    <EditText
+                        android:id="@+id/input_password_confirm"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Confirm Password"
+                        android:inputType="text|textPassword"
+                        android:maxLines="1"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@fonts/montserrat_medium"
+                        android:padding="@dimen/spacing_mmiddle"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <ma.ensaf.veryempty.widget.MaterialRippleLayout
+                    android:id="@+id/btn_next_ripple"
+                    style="@style/RippleStyleWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_xlarge">
+
+                    <Button
+                        android:id="@+id/btn_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_rect_dark"
+                        android:text="@string/sign_up"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        />
+
+                </ma.ensaf.veryempty.widget.MaterialRippleLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:indeterminate="false"
+                    android:layout_marginTop="@dimen/spacing_mmiddle"
+                    android:visibility="gone"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/login_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/spacing_large"
+                    android:paddingBottom="@dimen/spacing_large">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/have_account"
+                        android:paddingRight="@dimen/spacing_medium"
+                        android:paddingEnd="@dimen/spacing_medium"
+                        app:fontFamily="@fonts/montserrat_light"
+                        android:textColor="@color/md_grey_600"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/login_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_login"
+                        android:textStyle="bold"
+                        app:fontFamily="@fonts/montserrat_bold"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorAccent"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</layout>
