@@ -8,8 +8,7 @@ import ma.ensaf.veryempty.R
 import android.os.CountDownTimer
 import android.view.View
 import android.view.Window
-import ma.ensaf.veryempty.activities.ActivityWelcomeScreen
-import ma.ensaf.veryempty.activities.SplashActivity
+
 import ma.ensaf.veryempty.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
@@ -38,7 +37,4 @@ class SplashActivity : AppCompatActivity() {
         }.start()
     }
 
-    companion object {
-        private val TAG: String = SplashActivity::class.java.getSimpleName()
-    }
 }

@@ -2,6 +2,7 @@ package ma.ensaf.veryempty.models;
 
 import java.io.Serializable;
 
+//this can be deleted now
 @SuppressWarnings("serial") //With this annotation we are going to hide compiler warnings
 public class CUsers implements Serializable {
     private int id;
