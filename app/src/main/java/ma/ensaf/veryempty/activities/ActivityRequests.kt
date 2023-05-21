@@ -2,7 +2,6 @@ package ma.ensaf.veryempty.activities
 
 import ma.ensaf.veryempty.activities.ActivityUserProfile.Companion.start
 import com.google.firebase.firestore.FirebaseFirestore
-import ma.ensaf.veryempty.adapters.RequestsAdapter
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
@@ -17,6 +16,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import com.google.android.gms.tasks.Task
+import ma.ensaf.veryempty.zadapters.RequestsAdapter
 import ma.ensaf.veryempty.databinding.ActivityRequestsBinding
 import ma.ensaf.veryempty.utils.Constants
 import ma.ensaf.veryempty.utils.PreferenceManager

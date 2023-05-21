@@ -1,15 +1,8 @@
-package ma.ensaf.veryempty.adapters.viewholders;
+package ma.ensaf.veryempty.zadapters.viewholders
 
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView
+import ma.ensaf.veryempty.databinding.ItemDonorsHeaderBinding
 
-import ma.ensaf.veryempty.databinding.ItemDonorsHeaderBinding;
-
-public class HeaderViewHolder extends RecyclerView.ViewHolder {
-
-    public ItemDonorsHeaderBinding binding;
-
-    public HeaderViewHolder(final ItemDonorsHeaderBinding itemBinding) {
-        super(itemBinding.getRoot());
-        this.binding = itemBinding;
-    }
-}
+class HeaderViewHolder(val binding: ItemDonorsHeaderBinding) : RecyclerView.ViewHolder(
+    binding.root
+)

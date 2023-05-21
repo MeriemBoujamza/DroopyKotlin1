@@ -1,7 +1,6 @@
 package ma.ensaf.veryempty.activities
 
 import com.google.firebase.firestore.FirebaseFirestore
-import ma.ensaf.veryempty.adapters.DonorsAdapter
 import ma.ensaf.veryempty.models.Users
 import android.annotation.SuppressLint
 import android.content.Context
@@ -21,6 +20,7 @@ import ma.ensaf.veryempty.models.HeaderItem
 import com.google.firebase.firestore.QuerySnapshot
 
 import com.google.android.material.snackbar.Snackbar
+import ma.ensaf.veryempty.zadapters.DonorsAdapter
 import ma.ensaf.veryempty.databinding.ActivityDonorsBinding
 import ma.ensaf.veryempty.utils.Constants
 import java.util.*

@@ -2,7 +2,7 @@ package ma.ensaf.veryempty.activities
 
 import android.content.Context
 import ma.ensaf.veryempty.models.Users
-import ma.ensaf.veryempty.adapters.PostsAdapter
+import ma.ensaf.veryempty.zadapters.PostsAdapter
 import com.google.firebase.firestore.FirebaseFirestore
 import android.widget.TextView
 import android.os.Bundle

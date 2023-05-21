@@ -2,7 +2,7 @@ package ma.ensaf.veryempty.activities
 
 
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import ma.ensaf.veryempty.adapters.PostsAdapter
+import ma.ensaf.veryempty.zadapters.PostsAdapter
 import com.google.firebase.firestore.FirebaseFirestore
 import android.annotation.SuppressLint
 import android.content.Context

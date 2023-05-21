@@ -1,4 +1,4 @@
-package ma.ensaf.veryempty.adapters;
+package ma.ensaf.veryempty.zadapters;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,14 +18,13 @@ import java.util.List;
 import java.util.Objects;
 
 import ma.ensaf.veryempty.R;
-import ma.ensaf.veryempty.adapters.viewholders.HeaderViewHolder;
-import ma.ensaf.veryempty.adapters.viewholders.RowViewHolder;
+import ma.ensaf.veryempty.zadapters.viewholders.HeaderViewHolder;
+import ma.ensaf.veryempty.zadapters.viewholders.RowViewHolder;
 import ma.ensaf.veryempty.databinding.ItemDonorsHeaderBinding;
 import ma.ensaf.veryempty.databinding.ItemDonorsRowBinding;
 import ma.ensaf.veryempty.models.HeaderItem;
 import ma.ensaf.veryempty.models.RowItem;
 import ma.ensaf.veryempty.models.UsersListItem;
-import ma.ensaf.veryempty.utils.Constants;
 import ma.ensaf.veryempty.utils.DateTimeUtils;
 
 public class DonorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -85,21 +84,21 @@ public class DonorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
                 // Populate date item data here
                 String dateString = DateTimeUtils.parseDateTime(headerItem.getDate(), "yyyy-MM-dd", "dd MMM yyyy");
-                hViewHolder.binding.donationDateTextView.setText(ctx.getString(R.string.last_donation_date, dateString));
+                hViewHolder.getBinding().donationDateTextView.setText(ctx.getString(R.string.last_donation_date, dateString));
                 break;
             case UsersListItem.TYPE_ROW:
                 RowItem rowItem = (RowItem) filtered_items.get(position);
                 RowViewHolder rViewHolder = (RowViewHolder)(holder);
                 // Populate date item data here
-                rViewHolder.binding.userNameTextView.setText(rowItem.getUsers().getName());
+                rViewHolder.getBinding().userNameTextView.setText(rowItem.getUsers().getName());
                 byte[] bytes = Base64.decode(rowItem.getUsers().getImage(),Base64.DEFAULT);
                 Bitmap bitmap = BitmapFactory.decodeByteArray(bytes,0,bytes.length);
-                rViewHolder.binding.userImageView.setImageBitmap(bitmap);
-                rViewHolder.binding.userLocationTextView.setText(rowItem.getUsers().getLocation());
-                rViewHolder.binding.bloodGroupTextView.setText(rowItem.getUsers().getBloodGroup());
+                rViewHolder.getBinding().userImageView.setImageBitmap(bitmap);
+                rViewHolder.getBinding().userLocationTextView.setText(rowItem.getUsers().getLocation());
+                rViewHolder.getBinding().bloodGroupTextView.setText(rowItem.getUsers().getBloodGroup());
 
                 // click listeners
-                rViewHolder.binding.askForHelpTextView.setOnClickListener(view -> {
+                rViewHolder.getBinding().askForHelpTextView.setOnClickListener(view -> {
                     if (mOnItemClickListener != null) {
                         mOnItemClickListener.onItemClick(view, position, rowItem);
                     }
