@@ -38,6 +38,8 @@
                 android:layout_marginRight="@dimen/spacing_mmiddle"
                 android:orientation="vertical">
 
+                <!--This stops hiding content of the last item in the list-->
+
                 <include
                     android:id="@+id/requests_top_layout"
                     layout="@layout/requests_tops_layout"
@@ -46,8 +48,6 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="@dimen/spacing_large" />
-
-                <!--This stops hiding content of the last item in the list-->
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/users_recycler_view"

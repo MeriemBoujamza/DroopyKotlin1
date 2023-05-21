@@ -35,7 +35,7 @@
                     android:layout_alignParentTop="true"
                     android:gravity="center"
                     android:letterSpacing="0.05"
-                    android:text="120 966"
+                    android:text="120"
                     android:textColor="@android:color/white"
                     android:textSize="26sp"
                     android:textStyle="bold"
